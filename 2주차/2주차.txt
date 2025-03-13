@@ -1,0 +1,17 @@
+
+전통: 입력->규칙->출력
+AI: 입,출력->규칙(API)->새로운 입력
+
+train데이터->test데이터
+모델 일반화(많은 데이터로 학습)
+
+올리는 파일, DT RF SVM LR로 분석
+
+AI->데이터 가중치+bias를 구함->새로운 데이터 예측
+
+KMN(superviser)->레이블 알아냄
+K_means(unsuperviser)->grouping(분류)
+
+numpy(딥러닝에 넣는 데이터)<->pandas 차이점
+
+모든 데이터는 숫자로 변경(but 머신러닝의 Y값은 유일하게 상관 X)
